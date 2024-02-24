@@ -1,0 +1,16 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "builder": "NIXPACKS",
+    "nixpacksPlan": {
+      "providers": []
+    }
+  },
+  "deploy": {
+    "numReplicas": 1,
+    "startCommand": "yarn run dev",
+    "sleepApplication": false,
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 10
+  }
+}
