@@ -27,3 +27,11 @@ O backend está configurado para utilizar um banco de dados PostgreSQL para usu�
 - **POST /orders**: Cria um novo pedido com os produtos selecionados.
 - **GET /orders**: Retorna todos os pedidos cadastrados.
 - **PUT /orders/:id**: Atualiza o status de um pedido existente.
+
+## Repositório Front-end
+
+[Repositório Front-end](https://github.com/gabrielabade/codeburger-frontend.git)
+
+## Deploy
+
+O front-end do projeto CodeBurger está disponível no seguinte link: [CodeBurger - Deploy](https://codeburger-gabrielabade.vercel.app/login)
